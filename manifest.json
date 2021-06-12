@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension-copy-link",
+  "version": "0.1",
+  "description": "copy page link [page.title](page.link)",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {}
+}
